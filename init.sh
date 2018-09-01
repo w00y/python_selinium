@@ -1,3 +1,4 @@
+pkill dpkg
 apt-get update
 dpkg --configure -a
 apt --fix-broken install -y
