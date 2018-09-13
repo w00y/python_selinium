@@ -8,3 +8,5 @@ tar -xvf geckodriver-v0.21.0-linux64.tar.gz
 rm geckodriver-v0.21.0-linux64.tar.gz
 chmod +x geckodriver
 cp geckodriver /usr/bin/geckodriver
+wget https://www.torproject.org/dist/torbrowser/8.0/tor-browser-linux64-8.0_en-US.tar.xz
+tar xvf tor-browser-linux64-8.0_en-US.tar.xz
