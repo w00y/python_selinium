@@ -1,3 +1,4 @@
+passwd root
 apt-get update
 dpkg --configure -a
 apt-get install nano unzip docker.io python-pip firefox xvfb  python3-pip -y
